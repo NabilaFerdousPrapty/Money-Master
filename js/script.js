@@ -24,7 +24,7 @@ function calculateSavings() {
     const savingPercentage=getElementValueById('saving-percentage');
     // console.log(savingPercentage);
     const remaining=calculateExpanse();
-    const saving=remaining-remaining*(savingPercentage/100);
+    const saving=remaining*(savingPercentage/100);
    const remain=remaining-saving;
     document.getElementById('saving').innerText=saving;
     document.getElementById('remaining').innerText=remain;
